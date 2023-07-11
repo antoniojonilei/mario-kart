@@ -28,8 +28,7 @@
    background-color: white;
    width: 100%;
 
-   height: 150px;
-   /* border: 1px solid black; */
+   height: 150px;   
    position: fixed;
    top: 0;
 }
@@ -95,9 +94,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;    
-
-    border: 1px solid black;
+    gap: 30px;
 }
 
 .headline h1 {
@@ -148,8 +145,6 @@
     width: 40%;
     height: 500px;
     margin-right: 10%;
-
-    border: 1px solid black;
 }
 
 .bg-img img{
@@ -159,7 +154,6 @@
 /* main content */
 main {
     margin-top: 250px;
-    /* border: 1px solid black; */
 }
 
 main h2 {
@@ -173,9 +167,6 @@ main h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10%; */
     margin: 10%;
 }
 
@@ -190,8 +181,6 @@ main h2 {
 .card .card-img {
     margin: 0 auto;
     display: block;
-
-    /* border: 1px solid black; */
 }
 
 .card h3 {
