@@ -71,6 +71,10 @@
         margin-top: 5px;
         font-size: 0.8em;
      } 
+
+     .sections {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 680px) {
