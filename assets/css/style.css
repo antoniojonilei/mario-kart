@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --cor1: #8f917c;
+    --cor2: #e68567;
+    --cor3: #5c5c5d;
+    --cor4: #3a5165;
+    --cor5: #d51f22; 
+    --cor6: #003366;   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 15px;
+}
+
+.logo {
+    flex: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.logo img{
+    max-width: 120px;
+}
+
+.menu {
+    flex: 70%;
+    font-family: 'Press Start 2P', cursive; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--cor5);
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: var(--cor6);
+    border-bottom: 3px solid var(--cor6);
+}
+
+#btn-style {
+    margin-right: 10%;
+    padding: 10px 20px;
+    background-color: var(--cor5);
+    color: white;
+    border-radius: 5px;
+    border: 3px solid var(--cor5);
+    transition: 0.2s;    
+}
+
+#btn-style:hover {
+    background-color: white;
+    color: var(--cor5);    
+}
+
+/* conteudo headline */
