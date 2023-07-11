@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Condensed:wght@400;700&display=swap');
 
 :root {
     --cor1: #8f917c;
@@ -8,8 +8,11 @@
     --cor3: #5c5c5d;
     --cor4: #3a5165;
     --cor5: #d51f22; 
-    --cor6: #003366;   
-}
+    --cor6: #003366;  
+    
+    --press-start: 'Press Start 2P', cursive;
+    --roboto2: 'Roboto Condensed', sans-serif;
+}   
 
 * {
     margin: 0;
@@ -36,7 +39,7 @@
 
 .menu {
     flex: 70%;
-    font-family: 'Press Start 2P', cursive; 
+    font-family: var(--press-start);
     display: flex;
     align-items: center;
     justify-content: space-between;   
@@ -70,3 +73,55 @@
 }
 
 /* conteudo headline */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.headline {
+    width: 40%;
+    height: 500px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.headline h1 {
+    font-family: var(--press-start);
+    color: var(--cor5);
+    font-size: 2.9em;
+}
+
+.headline h2 {
+    font-family: var(--press-start);
+    color: var(--cor6);
+    margin-bottom: 20px;
+}
+
+.title02 {
+    font-size: 1.9em;
+}
+
+.headline p {
+    font-family: var(--roboto2);
+    line-height: 30px;
+    font-size: 1.7em;
+    color: var(--cor4);
+    text-align: justify;
+    max-width: 90%;
+}
+
+.bg-img {
+    width: 40%;
+    height: 500px;
+    margin-right: 10%;
+}
+
+.bg-img img{
+    max-width: 120%;
+}
